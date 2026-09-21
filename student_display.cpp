@@ -1,0 +1,21 @@
+ '''''''''''''''''
+#include <iostream>
+using namespace std;
+
+int main() {
+	int rollNo[5];
+
+	cout << "Enter roll number of 5 stdents: \n";
+
+	for (int i = 0; i <  5; i++) {
+		cin >> rollNo[i];
+	}
+
+	cout << "\nRoll numbers entered are: \n";
+
+	for (int i = 0 ; i < 5; i++) {
+		cout << rollNo[i] << endl;
+	}
+
+	return 0;
+}
